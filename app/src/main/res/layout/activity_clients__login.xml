@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Clients_Login"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="514dp"
+        tools:layout_editor_absoluteY="341dp">
+
+        <RelativeLayout
+            android:layout_width="500dp"
+            android:layout_height="60dp"
+            android:background="@drawable/spinner_container">
+
+            <Spinner
+                android:id="@+id/spinner_list"
+                style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="500dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner_container"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="PIN"
+            android:inputType="textPassword"
+            android:paddingStart="30dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/spinner_container"
+            android:text="Enter"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LevelTwo"></activity>
+        <activity android:name=".Clients_Login"></activity>
+        <activity android:name=".LevelTwo" />
         <activity android:name=".EndOfLevelOne" />
         <activity android:name=".Mainpage" />
         <activity
@@ -50,7 +51,5 @@
             android:name=".Main3Activity"
             android:screenOrientation="landscape" />
     </application>
-
-
 
 </manifest>

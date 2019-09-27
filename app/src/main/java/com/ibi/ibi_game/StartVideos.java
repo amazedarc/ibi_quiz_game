@@ -65,9 +65,8 @@ public class StartVideos extends AppCompatActivity {
 
         videoView = new VideoView(this);
         setContentView(videoView);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.coca;
-        Uri uri = Uri.parse(videoPath);
-        videoView.setVideoURI(uri);
+        String url = "http://game.ibi-africa.com/uploads/videos/20190927093343-2019-09-27videos093339.mp4";
+        videoView.setVideoURI(Uri.parse(url));
         DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
         videoView.setLayoutParams(new FrameLayout.LayoutParams(metrics.widthPixels,metrics.heightPixels));
