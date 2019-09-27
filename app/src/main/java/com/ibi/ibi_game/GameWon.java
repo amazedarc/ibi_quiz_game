@@ -52,10 +52,7 @@ public class GameWon extends AppCompatActivity {
 
     private void radomImage(){
 
-//        final TypedArray imgs = getResources().obtainTypedArray(R.array.ibigame);
-//        final Random rand = new Random();
-//        final int rndInt = rand.nextInt(imgs.length());
-//        final int resID = imgs.getResourceId(rndInt, 0);
+
 
         int resId[]={R.drawable.image_0,R.drawable.image_1,R.drawable.image_3};
         Random rand = new Random();
