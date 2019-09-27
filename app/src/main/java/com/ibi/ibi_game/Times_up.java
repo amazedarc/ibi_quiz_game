@@ -28,6 +28,7 @@ public class Times_up extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Times_up.this,Mainpage.class);
                 startActivity(intent);
+finish();
             }
         });
     }

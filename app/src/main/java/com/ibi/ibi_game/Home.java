@@ -66,6 +66,7 @@ public class Home extends AppCompatActivity {
         super.onBackPressed();
         Intent intent = new Intent(this,StartVideos.class);
         startActivity(intent);
+finish();
     }
 
 
